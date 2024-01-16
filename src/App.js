@@ -29,7 +29,7 @@ const getQuote = () => {
         <button id="new-quote" onClick={getQuote}>
           New Quote
           </button>&nbsp;&nbsp;&nbsp;&nbsp; 
-        <a href={'https://twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text' + quoteInfo.text} id="tweet-quote">Post Tweet</a>
+          <a href={`https://twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text=${quoteInfo.text}`} id="tweet-quote">Post Tweet</a>
       </div>
     </div>
   );
