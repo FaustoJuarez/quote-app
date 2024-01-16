@@ -1,3 +1,5 @@
+import { useEffect, useState } from 'react';
+import './App.css';
 var quotes = [
   [
     "It’s your place in the world, it’s your life. Go on and do all you can with it, and make it the life you want to live.",
@@ -198,3 +200,5 @@ class QuoteChild extends React.Component {
 
 const el = document.querySelector("#root");
 ReactDOM.render(<RandomQuoteMachine title="qotd" />, el);
+
+export default App;
